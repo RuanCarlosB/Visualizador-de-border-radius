@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    width: auto;
+    background: linear-gradient(to top, #2fff00, rgb(0, 32, 93) 80%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1{
+    font-size: 2.2em;
+    margin: 50px 0;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.container{
+    margin: auto;
+    position: relative;
+    background-color: #ffffff82;
+    border-radius: 10px;
+    height: 500px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#box{
+    position: relative;
+    background: #fff700;
+    height: 300px;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+
+.def-radius{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1em;
+}
+
+#radius1{
+    position: absolute;
+    left: -50px;
+}
+#radius2{
+    position: absolute;
+    right: -50px;
+}
+#radius3{
+    position: absolute;
+    right: -50px;
+    bottom: 0;
+}
+#radius4{
+    position: absolute;
+    left: -50px;
+    bottom: 0;
+}
+
+#code-css{
+    margin-top: 20px;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.8em;
+}
+#copy{
+    border: none;
+    background-color: #2fff00;
+    height: 50px;
+    width: 120px;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#color{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
