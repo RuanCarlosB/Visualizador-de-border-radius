@@ -53,7 +53,7 @@ function copyCSS(){
 function switchColor(){
 
     btnColor.addEventListener('change', e=>{
-        box.style.backgroundColor = btnColor.value
+        box.style.backgroundColor = `border-radius: ${btnColor.value};`
 
     })
 }
